@@ -1,0 +1,28 @@
+#LEDs (D1, D2, D3, D4)
+9201T053; 4
+#Terminal blocks (IN, OUT)
+DG308-2.54-02P-14-00AH; 2
+#MCU (IC1)
+ATtiny441-SSU; 1
+#Optocouple (OPT1)
+4N37M; 1 
+#DIP-socket (OPT1, REL1, REL2)
+SCS-18 (DS1009-18AN); 1
+#Bypass mode relay (RL1)
+NRP-02-C-05DH; 1
+#47Ω resistor (R5)
+RC1206FR-0747RL; 1
+#390Ω resistors (R6, R8, R9, R10, R11)
+RC1206FR-07390RL; 5
+#1kΩ resistors (R1, R3, R7)
+RC1206FR-071KL; 3
+#10kΩ resistor (R12)
+RC1206FR-0710KL; 1
+#330Ω resistors (R2, R4)
+RC1206FR-07330RL; 2
+#Solid-state control relays (REL1, REL2)
+КР293КП1А; 2
+#External crystal resonator (Q1)
+16.000MHzHC-49US;1
+#22pF Capacitors (C1, C2)
+GRM21A5C2E220JW01;2
