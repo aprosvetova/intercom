@@ -1,0 +1,10 @@
+#define SPI_DDR DDRB
+#define SPI_MISO PINB4
+
+#define DDR DDRD
+#define PORT PORTD
+#define PIN PIND
+#define INCOMING_CALL_PIN PIND2
+#define HOOK_MODE_PIN PIND3
+#define WAIT_MODE_PIN PIND4
+#define OPEN_PIN PIND5

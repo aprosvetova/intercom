@@ -1,0 +1,15 @@
+#define ACK 0x70
+#define WTF 0x80
+
+#define CALLING_ADDRESS 0x01
+#define HOOK_MODE_ADDRESS 0x02
+
+#define NOT_CALLING_RESPONSE 0x02
+#define CALLING_RESPONSE 0x03
+#define NOT_HOOKED_RESPONSE 0x04
+#define HOOKED_RESPONSE 0x05
+
+#define OPEN_DOOR 0x06
+#define HANG_UP 0x07
+#define HOOK 0x08
+#define UNHOOK 0x09
