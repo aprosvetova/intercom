@@ -1,4 +1,4 @@
-#define F_CPU 12000000UL/16
+#define F_CPU 16000000UL
 #include <avr/io.h>
 #include <avr/interrupt.h>
 #include <util/delay.h>
@@ -76,7 +76,7 @@ void acceptCall(bool open) {
 	if (open) {
 		setOpen(true);
 	}
-	_delay_ms(50);
+	_delay_ms(1000);
 	if (!wasHooked) {
 		setHookMode(false);
 	}
