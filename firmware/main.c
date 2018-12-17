@@ -7,7 +7,6 @@
 #include "const.h"
 
 unsigned char command = 0;
-long lastCall = 0;
 bool shouldOpenDoor = false;
 bool shouldHangUp = false;
 
